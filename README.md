@@ -1,5 +1,11 @@
-- Bussines Blog Card
+# Bussines Blog Card
+
   Demo URL [https://mytestimonial-page.netlify.app/](https://mytestimonial-page.netlify.app/)
+
+# Minimal Blog Card 
+
+  Demo URL [https://minimal-blogcard.netlify.app/](https://minimal-blogcard.netlify.app/)
   
-- Minimal Blog Card
-- Testimonial Page
+# Testimonial Page
+
+  Demo URL [https://bussinesblog-card.netlify.app/](https://bussinesblog-card.netlify.app/)
