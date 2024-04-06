@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FAFAF9;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    background-color: #F5C044;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 25px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #18181B;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    color: #52525A;
+}
+
+.content ul {
+    font-size: 14px;
+    list-style-type: none;
+    color: #52525A;
+}
+
+.content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    span {
+        margin-left: 8px;
+    }
+}
+
+article {
+    border-radius: 10px;
+    width: 351px;
+    height: auto;
+    padding: 25px 35px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 21px -10px rgba(0,0,0,0.26);
+}
+
+.testimonial {
+    width: auto;
+    margin-left: 100px;
+}
+
+article h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #18181B;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #52525A;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.article-img img {
+    width: 100px;
+    height: 35px;
+}
+
+.google {
+    margin-left: 300px;
+}
+
+.meta {
+    margin-top: 29px;
+}
