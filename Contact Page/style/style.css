@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(http://127.0.0.1:5500/Contact%20Page/assets/bg-image.svg);
+    background-image: url(../assets/bg-image.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -96,7 +96,7 @@ section {
         padding: 20px;
         font-size: 16px;
         font-weight: bold;
-        background-image: url(http://127.0.0.1:5500/Contact%20Page/assets/Expand_down.svg);
+        background-image: url(../assets/Expand_down.svg);
         background-size: 20px;
         background-repeat: no-repeat;
         background-position: right center;
