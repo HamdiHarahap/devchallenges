@@ -13,3 +13,7 @@
 # Contact Page
 
   Demo URL [https://mycontact-page.netlify.app/](https://mycontact-page.netlify.app/)
+
+# Simple Homepage
+
+  Demo URL [https://simplehome-page.netlify.app/](https://simplehome-page.netlify.app/)
