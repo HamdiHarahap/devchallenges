@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F2F9FE;
+    padding: 10px 100px;
+    height: 100vh;
+}
+
+.light {
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.navbar div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    color: #909193;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar div ul li:nth-child(1) {
+    color: #111729;
+}
+
+.theme {
+    background-color: #223344;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    gap: 5px;
+    border-radius: 20px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bg-btn {
+    background-color: #F2F9FE;
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 70px;
+}
+
+.content {
+    margin-right: 12rem;
+}
+
+.content .main-content span {
+    font-size: 14px;
+    color: #111729;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: #111729;
+    margin: 10px 0 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #909193;
+    margin-bottom: 20px;
+}
+
+.content button {
+    font-size: 16px;
+    width: 170px;
+    height: 3rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 13px;
+    background-color: #2A4DD0;
+    border: none;
+    margin-right: 30px;
+}
+
+.content a {
+    font-weight: bold;
+    color: #2A4DD0;
+}
+
+.checklist {
+    margin-top: 28px;
+}
+
+.checklist ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.checklist ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.checklist span {
+    font-size: 14px;
+    color: #909193;
+}
+
+.hero img {
+    width: 552px;
+}
+
+.dark {
+    display: none;
+    flex-direction: column;
+    background-color: #111729;
+}
+
+.dark main .content .main-content span {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dark main .content h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    margin: 10px 0 20px;
+}
+
+.dark .navbar div ul li:nth-child(1) {
+    color: #FFFFFF;
+}
